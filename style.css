@@ -20,9 +20,11 @@
  
 }
 
- .logo{
-    background-image: url("amazon_logo.png");
-    background-size: cover;
+.logo{
+    background-image: url("./Images/amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 50px;
     width: 100%;
 
@@ -126,7 +128,7 @@
  .nav-cart{
    font-size: 14px;
    font-weight: 700;
-   text-align:;
+   text-align: center;
  }
 
  /**Panel**/
@@ -159,7 +161,7 @@
  /** Hero section **/
 
  .hero-section{
-   background-image: url("hero_image.jpg");
+   background-image: url("./Images/hero_image.jpg");
    background-size: cover;
    height: 400px;
    display: flex;
@@ -269,14 +271,6 @@
   justify-content: center;
 }
 
-.logo {
-  background-image: url("amazon_logo.png");
-  background-size: cover;
-  height: 50px;
-  width: 100px;
- 
-}
-
 .foot-panel4{
   background-color: #0f1111;
   color: white;
@@ -294,3 +288,4 @@
   padding-top: 5px;
  
 }
+
